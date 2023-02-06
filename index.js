@@ -1,6 +1,5 @@
 const finalAvgPrice = array => {
   const filteredArray = array.filter((x) => x !== 0);
-  console.log(filteredArray)
   const sum = filteredArray.reduce((prev, acc) => prev + acc, 0);
   const average = sum / filteredArray.length;
   if (isNaN(average)) {
