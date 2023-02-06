@@ -1,4 +1,4 @@
-const finalAvgPrice = (array) => {
+const finalAvgPrice = array => {
   const filteredArray = array.filter((x) => x !== 0);
   console.log(filteredArray)
   const sum = filteredArray.reduce((prev, acc) => prev + acc, 0);
